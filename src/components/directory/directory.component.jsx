@@ -8,36 +8,36 @@ export default class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                    title: 'hats',
-                    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                    title: 'Posters',
+                    imageUrl: 'https://res.cloudinary.com/dxy4xnb4h/image/upload/v1571061583/samples/Posters/Procreate_-_Abstraction_1_gkavth.jpg',
                     id: 1,
-                    linkUrl: 'shop/hats'
+                    linkUrl: 'shop/posters'
                 },
                 {
-                    title: 'jackets',
-                    imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                    title: 'T-Shirts',
+                    imageUrl: 'https://res.cloudinary.com/dxy4xnb4h/image/upload/v1571082039/samples/Posters/Godzilla_re4aca.png',
                     id: 2,
-                    linkUrl: 'shop/jackets'
+                    linkUrl: 'shop/tshirts'
                 },
                 {
-                    title: 'sneakers',
-                    imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                    title: 'Phone Cases',
+                    imageUrl: 'https://res.cloudinary.com/dxy4xnb4h/image/upload/v1571066075/samples/Posters/Night_Stars_ggqhjy.jpg',
                     id: 3,
-                    linkUrl: 'shop/sneakers'
+                    linkUrl: 'shop/phone-cases'
                 },
                 {
-                    title: 'womens',
-                    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+                    title: 'Mugs',
+                    imageUrl: 'https://res.cloudinary.com/dxy4xnb4h/image/upload/v1571066992/samples/Posters/New_York_c2zlt2.jpg',
                     size: 'large',
                     id: 4,
-                    linkUrl: 'shop/womens'
+                    linkUrl: 'shop/mugs'
                 },
                 {
-                    title: 'mens',
-                    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                    title: 'Mouse Pads',
+                    imageUrl: 'https://res.cloudinary.com/dxy4xnb4h/image/upload/v1571064613/samples/Posters/FireDemon_kdwowj.jpg',
                     size: 'large',
                     id: 5,
-                    linkUrl: 'shop/mens'
+                    linkUrl: 'shop/mouse-pads'
                 }
             ]
         }
